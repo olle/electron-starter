@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olle/electron-starter.git"
+    "url": "git@github.com:olle/electron-starter.git"
   },
   "bugs": {
     "url": "https://github.com/olle/electron-starter/issues"
