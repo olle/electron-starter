@@ -1,0 +1,22 @@
+{
+  "name": "electron-starter",
+  "version": "0.1.0",
+  "description": "Electron app, starter kit.",
+  "author": "Olle Törnström",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olle/electron-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olle/electron-starter/issues"
+  },
+  "main": "main.js",
+  "scripts": {
+    "prestart": "make",
+    "start": "electron main.js"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.2"
+  }
+}
