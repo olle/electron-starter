@@ -1,13 +1,12 @@
 (function() {
   'use strict';
 
+  // For our Java app, we want to spawn it and run in background
   var spawn = require('child_process').spawn;
-
   var fs = require('fs');
   var out = fs.openSync('./out.log', 'a');
   var err = fs.openSync('./out.log', 'a');
-
-  var child = spawn('java', ['-jar', __dirname + '/target/app-0.0.1.jar'], {
+  var child = spawn('java', ['-jar', __dirname + '/target/app.jar'], {
     detached: true,
     stdio: ['ignore', out, err]
   });
@@ -40,7 +39,6 @@
     });
 
     // and load the index.html of the app.
-    //mainWindow.loadURL('http://localhost:8080');
     mainWindow.loadURL('file://' + __dirname + '/index.html');
 
     // Open the DevTools.
