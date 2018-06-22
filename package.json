@@ -18,7 +18,7 @@
     "test": "mvn test && jasmine-node ."
   },
   "devDependencies": {
-    "electron-prebuilt": "^0.36.2",
-    "jasmine-node": "^1.14.5"
+    "electron": "2.0.3",
+    "jasmine-node": "^1.15.0"
   }
 }
