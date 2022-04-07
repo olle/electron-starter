@@ -1,6 +1,6 @@
 {
   "name": "electron-starter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Electron app, starter kit.",
   "author": "Olle Törnström",
   "license": "MIT",
@@ -13,7 +13,7 @@
   },
   "main": "main.js",
   "scripts": {
-    "prestart": "make",
+    "prestart": "mvn package",
     "start": "electron main.js",
     "test": "mvn test && jasmine-node ."
   },
