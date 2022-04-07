@@ -6,9 +6,13 @@ embedded backends, of different types (not just NodeJS).
 
 ## Getting started ##
 
-Requires `make`, `mvn` and `npm`/ (Node). Simply `npm install`, to provision
-dependencies, and the `npm start`, to compile and run the starter skeleton
-application.
+Requires Maven `mvn`, `node` and `npm`. Install dependencies and start the
+application by running:
+
+```
+npm install
+npm start
+```
 
 _Proof of Concept: The current version provides the most simple Spring-Boot
                    based JAR-application there is ("Hello World!") and simply
