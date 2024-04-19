@@ -40,12 +40,12 @@
   app.on("ready", function () {
     // Create the browser window.
     mainWindow = new BrowserWindow({
-      width: 1000,
+      width: 1300,
       height: 700,
     });
 
     // and load the index.html of the app.
-    mainWindow.loadURL("file://" + __dirname + "/index.html?port=8181");
+    mainWindow.loadFile("index.html");
 
     // Open the DevTools
     //mainWindow.webContents.openDevTools();
