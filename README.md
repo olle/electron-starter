@@ -6,8 +6,8 @@ embedded backends, of different types (not just NodeJS).
 
 ## Getting started ##
 
-Requires Maven `mvn`, `node` and `npm`. Install dependencies and start the
-application by running:
+Requires `node` and `npm`. Install dependencies and start the application by
+running:
 
 ```
 npm install
